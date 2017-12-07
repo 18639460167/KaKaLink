@@ -1,0 +1,251 @@
+/* 
+  Localizable.strings
+  KaKaLink
+
+  Created by Black on 17/6/30.
+  Copyright © 2017年 Black. All rights reserved.
+*/
+/*
+ Localizable.strings
+ TourGuidShop
+ 
+ Created by tenpastnine-ios-dev on 16/12/22.
+ Copyright © 2016年 Black. All rights reserved.
+ */
+"check" = "Trans.";
+"sale" = "Income";
+"User" = "Me";
+"setting" = "Setting";
+"BACK" = "Back";
+"All" = "All";
+"Filter" = "Filter";
+"Search" = "Search";
+"Today" = "Today";
+"Before" = "Before";
+"Cancel" = "Cancel";
+"Determine" = "Confirm";
+"Finish" = "Finish";
+"Select_Shop" = "Click here to select your shops";
+
+"Payment_Channel" = "Channel";
+"Payment_Date" = "Date";
+"Wechat_Collection" = "Wechat pay";
+"Ali_Pay" = "Alipay";
+
+"Done" = "Done";
+"Procress" = "Refunding";
+"Refunded" = "Refunded";
+
+/**
+ *  refresh
+ */
+"Not_More" = "No More";
+"Pull to refresh..." = "Pull down to refresh";
+"Release to refresh..." = "Release to refresh";
+"Loading..." = "Loading";
+"NO_Record" = "Click to reload";
+"Disconnect_Internet" = "It seems that bad internet,please try it later";
+"Picture_Load_Fail" = "Bad internet,pictures download failed";
+
+
+"Order_detail" = "Order detail";
+"Actual_Receivable" = "Gross Amount:";
+"Settlement_Amount" = "Settlement:";
+"Trading_Status" = "Status:";
+"Channels_Payment" = "Channel:";
+"Payment_Business" = "Merchant Name:";
+"Transaction_Time" = "Trans. Time:";
+"Transaction_Number" = "Trans. ID:";
+"Payment_Code" = "Payment ID:";
+"Refund_Start_Time" = "Refund Time:";
+"Refund_Reason" = "Reason:";
+"Revoked" = "Cancel";
+"Alert_Cancellation_Refund" = "Please confirm to cancel the refund";
+"Start_Cancellation_Refund" = "Apply to cancel refund";
+"Alert_Setting_Pass" = "Please set your secure password";
+"Contact_Customer_Service" = "Any problems please contact with our custom service:";
+"Alert_Initiate_Refund" = "Please confirm to submit your apply for refund";
+"Input_Pay_Pass" = "Please input the password";
+
+"Refund" = "Refunding";
+"Choose_Refund_Reason" = "Please choose a reason";
+"Business_Negotiations" = "Negotiated Agreement";
+"Initiate_Order_Refund" = "Apply to refund";
+"No_Trans_Pass"  ="Please set your secure password";
+"Many_Times_Pay" = "Duplicate Payment";
+"Other_Reasons" = "Other";
+"Input_Other_Reasons" = "Input your refund reason here";
+"Refund_Now" = "Refund now";
+"Refund_Amount" = "Refund Amount";
+
+"Today_Volue_Orders" = "Today Total Trans";
+"All_Volue_Orders" = "All Total Trans";
+"Before_Volue_Orders" = "Before Total Trans";
+"Total_Sale" = "Total Amount";
+
+"Setting_Six_Pass" = "Your Security Password";
+"Input_Six_Number" = "(The password should be 6 digits)";
+"Enter_Here" = "Enter here";
+"Alert_Set_Pass" = "*Please remember the password";
+"Setting_Success" = "Setting successd";
+"Two_Pass_Inconsistent" = "Please input the same password!";
+
+"Input_Order_Number" = "Input order number";
+"Alert_Input_Order_Number" = "Your can scan the BarCode or QRCode by click the scan button";
+"Scan_Message" = "Put QRCode in the box will be ok";
+"Scan" = "Scan";
+"Select_Picture" = "Album";
+"Input_Bar_Code" = "Input bar code";
+"Switch_To_Scan" = "Switch to scan";
+"Please_Enter_Code" = "Please input bar code";
+"Order_Not_Find" = "No order！";
+
+"Query" = "Query";
+"Nearly_Month_Sale" = "Trends of last 6 months";
+"Current_Balance" = "Undischarged Balance";
+"Withdrawal" = "Withdraw";
+"Current_Month_Balance" = "Current months sale";
+"Query_By_Date" = "Query by date";
+
+
+"Query_Result" = "Query result";
+"Please_Input_Correct_Email" = "Please input the correct email";
+"Send_Order" = "Send order";
+"Send_More" = "Your operation is so fast，please try it 10 minutes later";
+"Send_Success" = "Send successfully";
+"Get_Order_Email" = "Email";
+"Enter_Email" = "Please input email";
+"Debit_Card" = "Bank card";
+"Tail_Number" = "***";
+
+// 卡券
+"Voucher" = "Voucher";
+"Redeem_Code" = "Redeem Code";
+"Card_Ticket_Type" = "Voucher Types";
+"Vertify_Record" = "Verification";
+"Vertify_Record_Detail" = "Detail";
+"Card_Liquidation_Record" = "Settlement";
+"Liquidation_Record_Detail" = "Detail";
+"Card_Verification" = "Voucher Verification";
+"Input_Card_Number" = "Input voucher number";
+
+"Card_Number" = "Voucher Number:";
+"Platform" = "Platform:";
+"Order_ID" = "Order ID:";
+"Good_Name" = "Goods Name:";
+"Good_Class" = "Goods Types:";
+"Price" = "Unit-price:";
+"Number" = "Quantity:";
+"Order_Total" = "Order Total:";
+"Vertify_Total" = "Settlement total:";
+"Vertify_Time" = "Verification Time:";
+"Settlement_Circle" = "Settlement Period:";
+"Settlement_Time" = "Settlement Time:";
+
+
+
+"Not_Find" = "Not Found";
+"Vertify" = "Verification";
+"Liquidationed" = "Settlement";
+"Settle_Finish" = "Liquidated";
+"Settlf_Fail" = "Undischarged";
+"Wirte_Off" = "Succeed";
+"Not_Written_Off" = "Failed";
+"Alipay" = "Alipay";
+"TaoBao" = "Tao Bao";
+"Public_Comment" = "Dian Ping";
+"Pen" = "piece";
+"Total" = "Total";
+"Not_Open_Card" = "Sorry,you have no access to the function,please call our BD manager to help you,thank you!";
+"Voucher_Had_Verificated" = "This voucher had been verificated，it can not be repeated verification!";
+"Ticket_Not_Confirmed" = "This voucher hadn't been confirmed，it can't be verified!";
+
+"Card_Expired" = "The voucher had missed the verification time,it can’t be verificated any more!";
+"Good_Detail" = "Goods detail";
+"Goods_Name" = "Title";
+"Goods_Number" = "Amount";
+"Gourment_Meal" = "Cuisine set mea";
+"Delicacy_Vouchers" = "Cuisine vouche";
+"Card_Category_Three" = "Recreation";
+"Card_Category_Four" = "Entrance tickets";
+"Card_Category_Five" = "Car use";
+"Card_Category_Six" = "One day trip";
+"Card_Category_Seven" = "Performance";
+"Card_Category_Eight" = "Booking seat for cuisine";
+"Card_Category_Nine" = "Passport";
+"Card_Category_Ten" = "Set meal of Airport and hotel";
+"Card_Category_Eleven" = "Wi-Fi";
+"Card_Category_Twelve" = "Phone card";
+"Card_Category_Thirteen" = "Transport tickets";
+"Card_Category_Fourteen" = "Special offer airline tickets";
+"Card_Category_Fifteen" = "Group trip";
+
+/**
+ *  setting
+ */
+"Message" = "MESSAGE";
+"Bank_Card" = "BANKCARD";
+"Qr_Code" = "QRCode";
+"Usual_Problems" = "Q&A";
+"User_Feedback" = "CONSULT";
+"Online_Service" = "Consult";
+"Helpline" = "PHONE";
+"Bank_Message" = "Bank info";
+"Bank_Account_Name" = "Account name";
+"Bank_Account_Number" = "Account number";
+"Bank_Branch_Name" = "Branch name";
+"Bank_Trunk_Name" = "Trunk name";
+"Deleate" = "Delete";
+"Phone_Number" = "Telephone:";
+"Email" = "Email:";
+"Telephone" = "Phone";
+"All_Read" = "All read";
+"Personal_Information" = "Personal info";
+"Change_Qr" = "Please note to switch your QR Codes if your have several shops.";
+"Save_Photo" = "Save to album";
+"Save_Success" = "Completed";
+"Save_Fail" = "Failed";
+"Exit_Account" = "Logout";
+"Message_Detail" = "Message detail";
+"Message_Type" = "Message type:";
+"Message_Time" = "Message time:";
+
+"Message_Remind" = "SMS service";
+"Send_Verify_Code" = "Code";
+"Seconds_After_Reissued" = "%@s later";
+"Immediately_Bind" = "Bind Now";
+"Change_Bind" = "Change mobile";
+"Please_Input_Phone" = "Please input telephone number";
+"Please_Input_Verify" = "Please input the verification code";
+"Verify_Send_Success" = "Send successfully";
+"Alert_Enter_Phone" = "please input telephone number!";
+"Change_Bind_Number" = "Change mobile number";
+"Bind_Phone" = "Bind Telephone Number";
+"Bind_Success" = "Bind successfully";
+
+
+"Login_Input_Name" = "Input account name";
+"Login_Input_Pass" = "Input password";
+"Login_Input_No_Data" = "Empty account or password";
+"Merchant_Edition" = "Merchant";
+"Login" = "Login";
+"Login_Faild" = "Failed";
+"Logout" = "Logout";
+
+"Settle_Finish" = "Liquidated";
+"Settlf_Fail" = "Undischarged";
+"Replace" = "Replace";
+"Pay_Way" = "Payment channel";
+"Pay_Time" = "Payment date";
+"Liquidation" = "Settlement";
+"Liquidation_Record" = "Settlement record";
+"Liquidation_Status" = "Settlement status";
+"Liquidation_Finish" = "Settlement completed";
+"Liquidation_Detail" = "Settlement details";
+
+"Set_Album_Permission" = "Please open the camera in the system Settings";
+
+
+
+
+

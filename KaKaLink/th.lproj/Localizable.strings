@@ -1,0 +1,256 @@
+/*
+ Localizable.strings
+ TourGuidShop
+ 
+ Created by tenpastnine-ios-dev on 16/12/22.
+ Copyright © 2016年 Black. All rights reserved.
+ */
+
+"check" = "เช็ค";
+"sale" = "ยอดขาย";
+"User" = "ผู้ใช้งาน";
+"setting" = "การตั้งค่า";
+"BACK" = "กลับ";
+"All" = "ทั้งหมด";
+"Filter" = "ค้นหาอย่างละเอียด";
+"Search" = "ค้นหา";
+"Today" = "วันนี้";
+"Before" = "ก่อน";
+"Cancel" = "ยกเลิก";
+"Finish" = "เสร็จสมบูรณ";
+"Determine" = "กำหนด";
+"Select_Shop" = "คลิกที่นี่เพื่อเลือกร้านค้าของคุณ";
+
+"Payment_Channel" = "ช่องทางการชำระเงิน";
+
+"Payment_Date" = "วันที่ชำระเงิน";
+
+"Wechat_Collection" = "การชำระเงินทางWeChat";
+
+"Ali_Pay" = "การชำระเงินทางAlipay";
+
+
+"Done" = "เรียบร้อย";
+"Procress" = "กำลังคืนเงิน";
+"Refunded" = "คืนเงินแล้ว";
+
+/**
+ *  refresh
+ */
+"Not_More" = "ไม่มีมากกว่านี้แล้ว";
+"Pull to refresh..." = "ดึงลงเพื่อรีเฟรช...";
+"Release to refresh..." = "ปล่อยเพื่อฟื้นฟู...";
+"Loading..." = "กำลังโหลด...";
+"NO_Record" = "คลิกเพื่อโหลดใหม่";
+"Disconnect_Internet" = "อินเทอร์เน็ตดูเหมือนจะไม่ค่อยดี่เลย กรุณาลองอีกครั้งนะคะ";
+"Picture_Load_Fail" = "อินเทอร์เน็ตไม่ดีนะ ดาวน์โหลดภาพไม่ได้เลย";
+
+/**
+ *  订单详情
+ */
+"Order_detail" = "รายละเอียดของการสั่งซื้อ";
+"Actual_Receivable" = "จำนวนเงินที่จะได้รับ:";
+"Settlement_Amount" = "จำนวนเงินที่ได้เก็บ:";
+"Trading_Status" = "สถานะของซื้อขาย:";
+"Channels_Payment" = "ช่องชำระเงิน:";
+"Payment_Business" = "ร้านซื้อขาย:";
+"Transaction_Time" = "เวลาการซื้อขาย:";
+"Transaction_Number" = "หมายเลขการซื้อขาย:";
+"Payment_Code" = "รหัสการชำระเงิน:";
+"Refund_Start_Time" = "เวลาเริ่มการคืนเงิน:";
+"Refund_Reason" = "เหตุผลในการคืน:";
+"Revoked" = "ยกเลิก";
+"Alert_Cancellation_Refund" = "คุณกำลัยกเลิกคืนเงิน ยืนยันคืนเงินหรือไม่";
+"Start_Cancellation_Refund" = "จะเริ่มยกเลิกคืนเงินของการสั่งซื้อ";
+"Alert_Setting_Pass" = "คุณยังไม่ได้ตั้งรหัสของซื้อขาย กรุณาตั้งในตอนนี";
+"Contact_Customer_Service" = "สอบถามรายละเอียดกรุณาติดต่อฝ่ายบริการลูกค้า:";
+"Alert_Initiate_Refund" = "คุณกำลังเริ่มคืนเงิน ยืนยันคืนเงินหรือไม่";
+"Input_Pay_Pass" = "กรุณาใส่รหัสผ่านการชำระเงิน";
+
+"Refund" = "คืนเงิน";
+"Choose_Refund_Reason" = "กรุณาเลือกเหตุผลสำหรับการคืนเงิน";
+"Business_Negotiations" = "ในการหารือกับตกลงกับร้านค้า";
+"Initiate_Order_Refund" = "เริ่นคืนเงินการสั่งซื้อ";
+"No_Trans_Pass"  ="คุณยังไม่ได้ตั้งรหัส กรุณาตั้งในตอนนี";
+"Many_Times_Pay" = "ชำระเงินหลายครั้ง";
+"Other_Reasons" = "อื่นๆ";
+"Input_Other_Reasons" = "คลิกที่นี่เพื่อป้อนสาเหตุสำหรับการคืนเงิน";
+"Refund_Now" = "คืนเงินตอนนี้";
+"Refund_Amount" = "จำนวนเงินคืน";
+
+"Today_Volue_Orders" = "ผลประกอบการวันนี้ / ครั้ง";
+"All_Volue_Orders" = "การทำธุรกรรมทั้งหมด / ครั้ง";
+"Before_Volue_Orders" = "ผลประกอบการที่ผ่าน/ ครั้ง";
+"Total_Sale" = "จำนวนเงินรวม";
+
+"Setting_Six_Pass" = "กรุณาตั้งรหัสหกตัวของคุณ";
+"Input_Six_Number" = "(กรุณาใส่รหัส ตัวเลขเท่านั้น)";
+"Enter_Here" = "เข้าสู่ตองนี้";
+"Alert_Set_Pass" = "* รหัสนี้จะนำไปใช้กับทุกขั้นตอนการของทำธุรกรรมทางการเงินนี้";
+"Setting_Success" = "ติดตั้งสำเร็จ";
+"Two_Pass_Inconsistent" = "ทั้งสองรหัสผ่านไม่ตรงกัน";
+"Input_Order_Number" = "ใส่หมายเลขการสั่งซื้อ";
+"Alert_Input_Order_Number" = "คลิกปุ่มสแกนเพื่อสแกนโดยตรง รายละเอียดการสั่งซื้อของบาร์โค้ดจะขึ้นมา";
+"Scan_Message" = "เอาคิวอาร์โค้ดลงในช่องมันจะสามารถสแกนได้";
+"Scan" = "สแกน";
+"Select_Picture" = "เลือกจากอัลบัม";
+"Input_Bar_Code" = "กรุณาใส่บาร์โค้ด";
+"Switch_To_Scan" = "เปลี่ยนไปใช้สแกน";
+"Please_Enter_Code" = "กรุณาใส่บาร์โค้ด";
+"Order_Not_Find" = "การสั่งซื้อไม่สามารถค้นหาได้";
+
+"Query" = "สอบถาม";
+"Nearly_Month_Sale" = "แนวโน้มล่าสุดของยอดขายใน6 เดือนที่ผ่าน";
+"Current_Balance" = "ยอดเงินเหลือที่รอชำระบัญชี";
+"Withdrawal" = "ถอนเงิน";
+"Current_Month_Balance" = "ยอดขายในเดือนที่ผ่านมา";
+"Query_By_Date" = "ค้นหาวันนี่";
+
+
+"Sale_Select_Start_time" = "กรุณาเลือกเวลาเริ่มต้น";
+"Sale_Select_End_time" = "กรุณาเลือกเวลาสิ้นสุด";
+"Sale_End_Date_Exceeded" = "วันที่สิ้นสุดเกินขอบเขตสอบถาม";
+"Sale_Star_Before_End" = "วันที่เริ่มต้นต้องอยู่ก่อนวันที่สิ้นสุด";
+
+"Query_Result" = "สืบค้นผลการ";
+"Please_Input_Correct_Email" = "กรุณาใส่อีเมลที่ถูกต้อง";
+"Send_Order" = "ส่งการสั่งซื้อ";
+"Send_More" = "คุณทำงานเร็วเกิน กรุณาลองใหม่อีกครั้งหลังจาก 10 นาที";
+"Send_Success" = "ส่งไปเรียบร้อย";
+"Get_Order_Email" = "อีเมลของการสั่งซื้อที่ได้รับ";
+"Enter_Email" = "กรุณาเข้าอีเมล";
+"Debit_Card" = "เงินได้รับการโอนจะบัตธนาคาร";
+"Tail_Number" = "เลขท้าย";
+
+/**
+ *  setting
+ */
+"Message" = "ข้อมูล";
+"Bank_Card" = "บัตรธนาคาร";
+"Qr_Code" = "คิวอาร์โค้ด";
+"Usual_Problems" = "คำถามที่พบบ่อย";
+"User_Feedback" = "ติดต่อบริการลูกค้า";
+"Online_Service" = "บริการออนไลน์";
+"Helpline" = "สายด่วน";
+"Bank_Message" = "ข้อมูลธนาคาร";
+"Bank_Account_Name" = "ชื่อบัญชี";
+"Bank_Account_Number" = "หมายเลขบัญชี";
+"Bank_Branch_Name" = "บัญชีของธนาคาร";
+"Bank_Trunk_Name" = "สาขาย่อย";
+"Deleate" = "ลบ";
+"Phone_Number" = "หมายเลขโทรศัพท์";
+"Email" = "อีเมล์:";
+"Telephone" = "บริการติดต่อ";
+"All_Read" = "อ่านทั้งหมด";
+"Personal_Information" = "ข้อมูลส่วนตัว";
+"Change_Qr" = "เปลี่ยนQr";
+"Save_Photo" = "บันทึกไปที่อัลบัม";
+"Save_Success" = "บันทึกสำเร็จ";
+"Save_Fail" = "บันทึกไม่สำเร็จ";
+"Exit_Account" = "ออกจากบัญชี";
+"Message_Detail" = "รายละเอียดของข้อความ";
+"Message_Type" = "ประเภทของข้อความ:";
+"Message_Time" = "เวลาของข้อความ:";
+
+"Message_Remind" = "ข้อความแจ้งเตือน";
+"Send_Verify_Code" = "ส่งรหัสยืนยัน";
+"Seconds_After_Reissued" = "%@หลังจากวินาทีส่งอีกครั้ง";
+"Immediately_Bind" = "ผูกบัญชีทันที";
+"Change_Bind" = "แก้ไขการผูกบัญชี";
+"Please_Input_Phone" = "โปรดระบุหมายเลขโทรศัพท์มือถือ";
+"Please_Input_Verify" = "กรุณาป้อนรหัสยืนยัน";
+"Verify_Send_Success" = "ส่งรหัสยืนยันที่สําเร็จ";
+"Alert_Enter_Phone" = "โปรดระบุหมายเลขโทรศัพท์มือถือผูกบัญชีที่สำเร็จ!";
+"Change_Bind_Number" ="แก้ไขผูกบัญชีกับมือถือ";
+"Bind_Phone" = "ผูกบัญชีกับโทรศัพท์มือถือ";
+"Bind_Success" = "ผูกบัญชีที่สำเร็จ";
+
+// 卡券
+"Voucher" = "คูปอง";
+"Redeem_Code" = "รหัส redeem";
+"Card_Ticket_Type" = "ประเภทคูปอง";
+"Vertify_Record" = "บันทึกการยืนยันการใช้คูปอง";
+"Vertify_Record_Detail" = "รายละเอียดการยืนยันคูปอง";
+"Card_Liquidation_Record" = "บันทึกการเคลียร์บัญชี";
+"Liquidation_Record_Detail" = "รายละเอียดบันทึกการเคลียร์บัญชี";
+"Card_Verification" = "การยืนยันคูปอง";
+"Input_Card_Number" = "กรอกหมายเลขคูปอง";
+
+"Card_Number" = "หมายเลขคูปอง:";
+"Platform" = "แพลตฟอร์ม:";
+"Order_ID" = "เลขที่สั่งซื้อ:";
+"Good_Name" = "ชื่อสินค้า:";
+"Good_Class" = "ประเภทสินค้า:";
+"Price" = "ราคาต่อหน่วย:";
+"Number" = "จำนวน:";
+"Order_Total" = "ราคารวมของออเดอร์:";
+"Vertify_Total" = "ราคาที่ยืนยัน:";
+"Vertify_Time" = "เวลาที่ยืนยัน:";
+"Settlement_Circle" = "รอบการเรียกเก็บเงิน:";
+"Settlement_Time" = "เวลาชำระบัญชี:";
+
+
+
+"Not_Find" = "หาไม่เจอ";
+"Vertify" = "ยืนยันการใช้คูปอง";
+"Liquidationed" = "ชำระบัญชี";
+"Settle_Finish" = "ชำระบัญชีแล้ว";
+"Settlf_Fail" = "ยังไม่ได้ชำระบัญชี";
+"Wirte_Off" = "ยืนยันการใช้คูปองแล้ว";
+"Not_Written_Off" = "ยังไม่ได้ยืนยันใช้คูปอง";
+"Alipay" = "อลิเพย์";
+"TaoBao" = "เถาเป่า";
+"Public_Comment" = "ต้าจ้งเตี่ยนผิง";
+"Pen" = "ครั้ง";
+"Total" = "ทั้งหมด";
+"Not_Open_Card" = "ขออภัย คุณยังไม่ได้เปิดฟังก์ชั่นยืนยันคูปอง กรุณาติดต่อผู้จัดการ BD เพื่อเปิดให้คุณ ขอบคุณค่ะ";
+"Voucher_Had_Verificated" = "คูปองนี้ได้รับการยืนยันแล้ว ไม่สามารถยืนยันซ้ำได้อีก!";
+"Ticket_Not_Confirmed" = "คูปองนี้ยังยืนยันไม่สำเร็จ ไม่สามารถตรวจสอบได้!";
+
+"Card_Expired" = "บัตรคูปองนี้เลยเวลาการใช้งานแล้ว ไม่สามารถยืนยันการใช้คูปองได้!";
+"Good_Detail" = "รายละเอียดสินค้า";
+"Goods_Name" = "ชื่อ";
+"Goods_Number" = "จำนวน";
+"Gourment_Meal" = "คูปองส่วนลดอาหาร";
+"Delicacy_Vouchers" = "บัตรเงินสดประเภทอาหาร";
+"Card_Category_Three" = "บันเทิง";
+"Card_Category_Four" = "บัตรเข้าชม";
+"Card_Category_Five" = "เช่ารถ";
+"Card_Category_Six" = "เหมาทัวร์ 1 วัน";
+"Card_Category_Seven" = "การแสดง";
+"Card_Category_Eight" = "จองโต๊ะอาหาร";
+"Card_Category_Nine" = "วีซ่า";
+"Card_Category_Ten" = "แพกเก็จตั๋วเครื่องบินและโรงแรม";
+"Card_Category_Eleven" = "Wi-Fi";
+"Card_Category_Twelve" = "ซิมโทรศัพท์";
+"Card_Category_Thirteen" = "ตั๋วเดินทาง";
+"Card_Category_Fourteen" = "ตั๋วเครื่องบินราคาถูก";
+"Card_Category_Fifteen" = "มากับทัวร์";
+
+
+/**
+ *  Login
+ */
+"Login_Input_Name" = "ใส่หมายเลขบัญชี";
+"Login_Input_Pass" = "ใส่รหัสผ่าน";
+"Login_Input_No_Data" = "หมายเลขบัญชีหรือรหัสไม่สามารถเว้นว่าง";
+"Merchant_Edition" = "ของร้านค้า";
+"Login" = "เข้าสู่ระบบ";
+"Login_Faild" = "เข้าสู่ระบบไม่สำเร็จ";
+"Logout" = "ออกจากระบบ";
+
+"Liquidation" = "ชำระบัญชี";
+"Settle_Finish" = "ชำระบัญชีแล้ว";
+"Settlf_Fail" = "ไม่ได้ชำระบัญชี";
+"Replace" = "แทนที่";
+"Pay_Way" = "ช่องทางชำระเงิน";
+"Pay_Time" = "วันที่ชำระเงิน";
+"Liquidation_Record" = "บันทึกการเคลียร์บัญชี";
+"Liquidation_Status" = "สถานะการเคลียร์บัญชี";
+"Liquidation_Finish" = "เคลียร์บัญชีสำเร็จ";
+"Liquidation_Detail" = "รายละเอียดชำระบัญชี";
+
+"Set_Album_Permission" = "กรุณาไปที่การตั้งระบบเพื่อเปิดบริการกล้องถ่ายรูป\n(การตั้งค่า>ความเป็นส่วนตัว>";
+
+
+

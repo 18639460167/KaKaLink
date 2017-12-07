@@ -1,0 +1,189 @@
+//
+//  PrefixHeader.pch
+//  KaKaLink
+//
+//  Created by Black on 17/6/30.
+//  Copyright © 2017年 Black. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//#ifdef DEBUG
+//#define NSLog(...) NSLog(__VA_ARGS__)
+//#define debugMethod() NSLog(@"%s", __func__)
+//#else
+//#define NSLog(...)
+//#define debugMethod()
+//#endif
+//NSLog
+#ifdef DEBUG
+#define NSLog(...) NSLog(@"%s 第%d行: %@\n\n",__func__,__LINE__,[NSString stringWithFormat:__VA_ARGS__])
+#else
+#define NSLog(...)
+#endif
+
+#import <UIKit/UIKit.h>
+/**
+ *  common
+ */
+#import "AppDelegate.h"
+#import "DefineHeard.h"
+#import "HYHttpClient.h"
+#import "HYAccountService.h"
+#import "HYStyle.h"
+#import "HYBackButton.h"
+#import "HYShopMessage.h"
+#import "HYProgressHUD.h"
+#import "HYWelvomeView.h"
+#import "HYAlertView.h"
+#import "HYLoadingView.h"
+#import "HYUserHelpModel.h"
+
+
+
+/**
+ *  Home
+ */
+#import "HYSelectOneCell.h"
+#import "HYOrderTableViewCell.h"
+#import "HYOrderStatusCell.h"
+#import "HYOrderDetailsCell.h"
+#import "HYFilterCollectionViewCell.h"
+
+#import "HYPassView.h"
+#import "HYConditionView.h"
+#import "HYSelectBtn.h"
+#import "HYCheckActionView.h"
+#import "HYCheckMessageView.h"
+#import "HYCheckScrollView.h"
+#import "HYFilterActionView.h"
+#import "HYHeardCollectionReusableView.h"
+
+#import "HYUserViewModel.h"
+#import "HYLoginViewModel.h"
+
+//  model
+#import "HYModel.h"
+#import "HYTransModel.h"
+#import "HYTransViewModel.h"
+#import "HYShopMessage.h"
+#import "HYPushItem.h"
+#import "TSAction.h"
+#import "PushNumberModel.h"
+#import "HYCommonViewModel.h"
+#import "HYMessageModel.h"
+
+//VC
+#import "HYSetTeadePassViewController.h"
+#import "HYRefundReasonViewController.h"
+#import "HYTransDerailViewController.h"
+
+/**
+ *  scale
+ */
+// cell
+#import "HYSaleDataView.h"
+#import "HYSaleDateView.h"
+#import "HYDatePickView.h"
+#import "HYOrderSendEmailView.h"
+#import "HYLiquidationRecordCell.h"
+
+// model
+#import "HYSaleMonthViewModel.h"
+#import "HYSettleListViewModel.h"
+#import "HYSettleListModel.h"
+#import "HYSaleQueryViewModel.h"
+#import "HYSettleDetailViewModel.h"
+
+#import "HYSaleQueryViewController.h"
+#import "HYNotiMessageViewController.h"
+#import "HYCurrentMonthViewController.h"
+#import "HYSalesStatusViewController.h"
+#import "HYLiquidationDetailViewController.h"
+#import "HYLiquidationRecordViewController.h"
+
+// VC
+#import "HYLiquidationRecordViewController.h"
+#import "HYTabBarViewController.h"
+#import "HYLoginViewController.h"
+#import "NavigationViewController.h"
+
+
+
+/*
+    Ka quan
+ */
+#import "HYCardCouponsViewController.h"
+#import "HYSettleRecordViewController.h"
+#import "HYSettleDetailViewController.h"
+#import "HYInputCardnumberViewController.h"
+#import "HYVertifyDetailViewController.h"
+#import "HYVertifyRecordViewController.h"
+#import "HYSettleListViewController.h"
+#import "HYGoodsDetailViewController.h"
+
+#import "HYCardHeardView.h"
+#import "HYCardFilterView.h"
+#import "HYCardRecordCell.h"
+#import "HYCardTableHeaderView.h"
+#import "HYCardNameTableViewCell.h"
+#import "HYSettleListTableViewCell.h"
+#import "HYCardVerifyTableViewCell.h"
+#import "HYGoodDetailTableViewCell.h"
+
+
+// model
+#import "HYGoodsListModel.h"
+#import "HYGoodDetailModel.h"
+#import "HYCardVertifyModel.h"
+#import "HYCardSettleModel.h"
+#import "HYCardSettleViewModel.h"
+#import "HYCardVertifyViewModel.h"
+#import "HYCardSettleBatchModel.h"
+#import "HYCardSettleBatchDetailModel.h"
+
+/**
+ *  Settting
+ */
+#import "HYNameView.h"
+#import "HYSettingView.h"
+#import "MessageButton.h"
+#import "HYSettingActionCell.h"
+#import "HYSettingUserCell.h"
+#import "HYFirstLeadingView.h"
+#import "HYWebProgressLayer.h"
+
+#import "HYUserViewController.h"
+#import "HYSearchViewController.h"
+#import "HYNotiMessageTableViewCell.h"
+#import "NotifiMessageViewModel.h"
+
+#import "HYCheckShopView.h"
+
+
+// 第三方
+#import "UIColor+HYAction.h"
+#import "UIView+HYAction.h"
+#import "NSString+Extensions.h"
+#import "NSString+ModelExtension.h"
+#import "UIImage+HYQRcode.h"
+#import "UITextField+Length.h"
+#import "UILabel+HYLabelAction.h"
+#import "UIAlertView+HYAlertAction.h"
+#import "UITextField+Length.h"
+#import "UIButton+HYButtonAction.h"
+#import "UIViewController+HYVcAction.h"
+#import "UITableView+HYTableRefersh.h"
+#import "UITableViewCell+HYTableviewCellAction.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "Masonry.h"
+#import "MJRefresh/MJRefresh.h"
+#import "UIScrollView+EmptyDataSet.h"
+#import "SDWebImage/UIImageView+WebCache.h"
+#import "ZXingObjC.h"
+#import <MBProgressHUD/MBProgressHUD.h>
+#endif /* PrefixHeader_pch */

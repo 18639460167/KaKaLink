@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InputBarCodeViewController">
+            <connections>
+                <outlet property="buttonOk" destination="f9H-xk-gJ8" id="Mlz-KW-sIF"/>
+                <outlet property="buttonSwitchScanCode" destination="CYs-WM-5Ep" id="hev-ql-Nx3"/>
+                <outlet property="textFieldBarCode" destination="iCK-0z-W6J" id="7js-q4-Dt7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ClF-Pc-AfN" userLabel="viewBack" customClass="BackView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scan_input.png" translatesAutoresizingMaskIntoConstraints="NO" id="XYs-cR-28v" userLabel="imageBox">
+                    <rect key="frame" x="57" y="206" width="261" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="ebb-rv-Mxf"/>
+                        <constraint firstAttribute="width" constant="261" id="s70-gH-gcD"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CYs-WM-5Ep">
+                    <rect key="frame" x="58" y="273.5" width="125" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.68000000000000005" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="125" id="6D1-Yi-p9E"/>
+                        <constraint firstAttribute="height" constant="40" id="xtp-Pb-VZt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="-5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="Switch to scan">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickSwitchScanCode:" destination="-1" eventType="touchUpInside" id="4cO-fy-Our"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9H-xk-gJ8">
+                    <rect key="frame" x="192" y="273.5" width="125" height="40"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.6781830658783784" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Xwc-mv-t0M"/>
+                        <constraint firstAttribute="width" constant="125" id="x49-Xk-Fbz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <inset key="imageEdgeInsets" minX="-5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="OK">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="clickOk:" destination="-1" eventType="touchUpInside" id="ed0-nD-AXi"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iCK-0z-W6J" userLabel="textFieldBarCode">
+                    <rect key="frame" x="65" y="213.5" width="245" height="40"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="PYc-29-2gH"/>
+                        <constraint firstAttribute="width" constant="245" id="sI5-Pe-XVh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="f9H-xk-gJ8" firstAttribute="trailing" secondItem="iCK-0z-W6J" secondAttribute="trailing" constant="7" id="0rF-lP-vWT"/>
+                <constraint firstItem="ClF-Pc-AfN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="GeH-SK-dx5"/>
+                <constraint firstItem="ClF-Pc-AfN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Hrp-7D-kco"/>
+                <constraint firstItem="iCK-0z-W6J" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-100" id="I6M-98-aP3"/>
+                <constraint firstItem="CYs-WM-5Ep" firstAttribute="leading" secondItem="iCK-0z-W6J" secondAttribute="leading" constant="-7" id="Nv2-3O-j6e"/>
+                <constraint firstItem="XYs-cR-28v" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="SUh-wO-27X"/>
+                <constraint firstAttribute="bottom" secondItem="ClF-Pc-AfN" secondAttribute="bottom" id="XP9-i7-xAU"/>
+                <constraint firstItem="CYs-WM-5Ep" firstAttribute="top" secondItem="iCK-0z-W6J" secondAttribute="bottom" constant="20" id="Y3o-vN-KMG"/>
+                <constraint firstAttribute="trailing" secondItem="ClF-Pc-AfN" secondAttribute="trailing" id="eEi-eH-jSb"/>
+                <constraint firstItem="f9H-xk-gJ8" firstAttribute="top" secondItem="CYs-WM-5Ep" secondAttribute="top" id="g9X-g5-thD"/>
+                <constraint firstItem="XYs-cR-28v" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" constant="-100" id="kqR-NZ-5HJ"/>
+                <constraint firstItem="iCK-0z-W6J" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wmy-tI-hdb"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="scan_input.png" width="261" height="55"/>
+    </resources>
+</document>

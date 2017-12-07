@@ -1,0 +1,250 @@
+/*
+ Localizable.strings
+ TourGuidShop
+ 
+ Created by tenpastnine-ios-dev on 16/12/22.
+ Copyright © 2016年 Black. All rights reserved.
+ */
+"check" = "마이페이지";
+"sale" = "판매";
+"User" = "나";
+"setting" = "설정";
+"BACK" = "뒤돌아가기";
+"All" = "전부";
+"Filter" = "필터링";
+"Search" = "검색";
+"Today" = "오늘";
+"Before" = "이전";
+"Cancel" = "취소";
+"Finish" = "완료";
+"Determine" = "확정";
+"Select_Shop" = "여기를 클릭해서 당신의 매장을 선택하세요";
+
+"Payment_Channel" = "결제방식";
+"Payment_Date" = "결제날짜";
+"Wechat_Collection" = "위챗페이";
+"Ali_Pay" = "알리페이";
+
+"Done" = "거래완료";
+"Procress" = "환불중";
+"Refunded" = "환불완료";
+
+/**
+ *  refresh
+ */
+"Not_More" = "더이상 없습니다";
+"Pull to refresh..." = "새로고침을　당기다";
+"Release to refresh..." = "새로고침을　풀다";
+"Loading..." = "로딩중...";
+"NO_Record" = "클릭해서 다시 로딩";
+"Disconnect_Internet" = "인터넷신호가 약하니，잠시후에 재시도해 주세요";
+"Picture_Load_Fail" = "인터넷신호가　약해서，사진　다운로드　실패";
+
+/**
+ *  订单详情
+ */
+"Order_detail" = "거래내역";
+"Actual_Receivable" = "미입금:";
+"Settlement_Amount" = "결제금:";
+"Trading_Status" = "거래상태:";
+"Channels_Payment" = "결제방식:";
+"Payment_Business" = "거래매장 :";
+"Transaction_Time" = "거래시간:";
+"Transaction_Number" = "거래번호:";
+"Payment_Code" = "결제번호:";
+"Refund_Start_Time" = "환불신청시간:";
+"Refund_Reason" = "환불사유:";
+"Revoked" = "취소";
+"Alert_Cancellation_Refund" = "지금 환불신청하시겠습니까?";
+"Start_Cancellation_Refund" = "환불신청합니다";
+"Alert_Setting_Pass" = "현재거래비밀번호를 설정하지 않았습니다. 지금 설정해 주세요";
+"Contact_Customer_Service" = "궁금하신 사항이 있다면, 전화로 문의해주세요";
+"Alert_Initiate_Refund" = "지금 환불신청하시겠습니까?";
+"Input_Pay_Pass" = "결제 비밀번호를 입력해주세요";
+
+"Refund" = "환불";
+"Choose_Refund_Reason" = "환불사유를 선택하세요";
+"Business_Negotiations" = "가맹점과 협의가 이루어졌습니다";
+"Initiate_Order_Refund" = "환불 신청";
+"No_Trans_Pass"  ="현재거래비밀번호를 설정하지 않았습니다. 지금 설정해 주세요";
+"Many_Times_Pay" = "여러 번  결제";
+"Other_Reasons" = "기타";
+"Input_Other_Reasons" = "클릭해서 다른 환불 사유를 입력하세요";
+"Refund_Now" = "즉시 환불";
+"Refund_Amount" = "환불 금액";
+
+"Today_Volue_Orders" = "오늘거래 / 량";
+"All_Volue_Orders" = "전체거래/량";
+"Before_Volue_Orders" = "이전거래/량";
+"Total_Sale" = "총 매출액";
+
+"Setting_Six_Pass" = "6자릿수  거래 비밀번호를 설정해 주세요";
+"Input_Six_Number" = "(숫자６자릿수　비밀번호만 입력해주세요";
+"Enter_Here" = "여기에서　입력해주세요";
+"Alert_Set_Pass" = "*이 비밀번호가 모든거래번호로 적용되오니, 꼭 기억해주세요";
+"Setting_Success" = " 설정성공";
+"Two_Pass_Inconsistent" = "두자리비밀번호가 일치하지 않습니다";
+"Input_Order_Number" = "거래번호 입력";
+"Alert_Input_Order_Number" = "바코드를 스캔해서 거래내역을 확인할 수 있습니다";
+"Scan_Message" = "QR코드를 대면 스캔이  됩니다";
+"Scan" = "스캔해주세요";
+"Select_Picture" = "사진선택";
+"Input_Bar_Code" = "바코드번호　입력";
+"Switch_To_Scan" = "스캔전환";
+"Please_Enter_Code" = "바코드번호를　입력해주세요";
+"Order_Not_Find" = "거래를　아직　찾지　못했습니다";
+
+
+/**
+ *  sale
+ */
+"Query" = "조회";
+"Nearly_Month_Sale" = "최근 6개월 판매량 동향";
+"Current_Balance" = "미청산 잔액";
+"Withdrawal" = "인출";
+"Current_Month_Balance" = "최근 월판매량";
+"Query_By_Date" = "날짜별로 조회하기";
+"Sale_Select_Start_time" = "시작시간을　선택해 주세요";
+"Sale_Select_End_time" = "마감시간을　선택해　주세요";
+"Sale_End_Date_Exceeded" = "마감날짜가　조회범위를　초과하였습니다";
+"Sale_Star_Before_End" = "시작날짜는　마감날짜전까지　입니다";
+
+"Query_Result" = "결과 조회";
+"Please_Input_Correct_Email" = "정확한 이메일 주소를 입력해 주세요";
+"Send_Order" = "계산서 발송";
+"Send_More" = "입력속도가  너무 빠릅니다. 10분 후에 다시 시도해 주세요";
+"Send_Success" = "발송성공";
+"Get_Order_Email" = "이메일주소";
+"Enter_Email" = "이메일주소를 입력하세요";
+"Debit_Card" = "송금 완료";
+"Tail_Number" = "계좌 뒷번호";
+
+
+/**
+ *  user
+ */
+"Message" = "메세지";
+"Bank_Card" = "은행카드";
+"Qr_Code" = "QR코드";
+"Usual_Problems" = "자주 하는 질문(FAQ) ";
+"User_Feedback" = "서비스센터로 연락주시길 바랍니다. ";
+"Online_Service" = "온라인 서비스";
+"Helpline" = "문의 전화";
+"Bank_Message" = "은행정보";
+"Bank_Account_Name" = "계좌명";
+"Bank_Account_Number" = "계좌번호";
+"Bank_Branch_Name" = "계좌은행";
+"Bank_Trunk_Name" = "은행지사";
+"Deleate" = "삭제";
+"Phone_Number" = "핸드폰 번호:";
+"Email" = "메일 주소:";
+"Telephone" = " 서비스전화";
+"All_Read" = "전부읽음";
+"Personal_Information" = "개인 정보";
+"Change_Qr" = "매장마다 QR코드가 다르니까 주의하십시오.";
+"Save_Photo" = "갤러리 저장";
+"Save_Success" = "저장성공";
+"Save_Fail" = "저장실패";
+"Exit_Account" = "현재 계정아웃";
+"Message_Detail" = "메시지내역";
+"Message_Type" = "메시지유형:";
+"Message_Time" = "메시지시간:";
+
+"Send_Verify_Code" = " 인증번호 발송";
+"Seconds_After_Reissued" = "%@잠시후 재발송";
+"Message_Remind" = "알림 메시지";
+"Immediately_Bind" = " 즉시 연동";
+"Change_Bind" = "연동수정";
+"Please_Input_Phone" = " 휴대폰번호를 입력하세요";
+"Please_Input_Verify" = " 인증번호를 입력하세요";
+"Verify_Send_Success" = "  인증번호를 성공적으로 발송했습니다";
+"Alert_Enter_Phone" = "휴대폰번호를 입력하세요!";
+"Change_Bind_Number" = " 연동번호를 수정하세요";
+"Bind_Phone" = " 휴대폰번호 연동";
+"Bind_Success" = "연동 성공";
+
+// 卡券
+"Voucher" = "Voucher";
+"Redeem_Code" = "Redeem Code";
+"Card_Ticket_Type" = "Voucher Types";
+"Vertify_Record" = "Verification";
+"Vertify_Record_Detail" = "Detail";
+"Card_Liquidation_Record" = "Settlement";
+"Liquidation_Record_Detail" = "Detail";
+"Card_Verification" = "Voucher Verification";
+"Input_Card_Number" = "Input voucher number";
+
+"Card_Number" = "Voucher Number:";
+"Platform" = "Platform:";
+"Order_ID" = "Order ID:";
+"Good_Name" = "Goods Name:";
+"Good_Class" = "Goods Types:";
+"Price" = "Unit-price:";
+"Number" = "Quantity:";
+"Order_Total" = "Order Total:";
+"Vertify_Total" = "Settlement total:";
+"Vertify_Time" = "Verification Time:";
+"Settlement_Circle" = "Settlement Period:";
+"Settlement_Time" = "Settlement Time:";
+
+"Not_Find" = "Not Found";
+"Vertify" = "Verification";
+"Liquidationed" = "Settlement";
+"Settle_Finish" = "Liquidated";
+"Settlf_Fail" = "Undischarged";
+"Wirte_Off" = "Succeed";
+"Not_Written_Off" = "Failed";
+"Alipay" = "Alipay";
+"TaoBao" = "Tao Bao";
+"Public_Comment" = "Dian Ping";
+"Pen" = "piece";
+"Total" = "Total";
+"Not_Open_Card" = "Sorry,you have no access to the function,please call our BD manager to help you,thank you!";
+"Voucher_Had_Verificated" = "This voucher had been verificated，it can not be repeated verification!";
+"Ticket_Not_Confirmed" = "This voucher hadn't been confirmed，it can't be verified!";
+
+"Card_Expired" = "The voucher had missed the verification time,it can’t be verificated any more!";
+"Good_Detail" = "Goods detail";
+"Goods_Name" = "Title";
+"Goods_Number" = "Amount";
+"Gourment_Meal" = "Cuisine set mea";
+"Delicacy_Vouchers" = "Cuisine vouche";
+"Card_Category_Three" = "Recreation";
+"Card_Category_Four" = "Entrance tickets";
+"Card_Category_Five" = "Car use";
+"Card_Category_Six" = "One day trip";
+"Card_Category_Seven" = "Performance";
+"Card_Category_Eight" = "Booking seat for cuisine";
+"Card_Category_Nine" = "Passport";
+"Card_Category_Ten" = "Set meal of Airport and hotel";
+"Card_Category_Eleven" = "Wi-Fi";
+"Card_Category_Twelve" = "Phone card";
+"Card_Category_Thirteen" = "Transport tickets";
+"Card_Category_Fourteen" = "Special offer airline tickets";
+"Card_Category_Fifteen" = "Group trip";
+
+
+/**
+ *  Login
+ */
+"Login_Input_Name" = "계정을 입력해주세요";
+"Login_Input_Pass" = "비밀번호를 입력해주세요";
+"Login_Input_No_Data" = "계정 혹은 비밀번호를 비워놓을 수 없습니다";
+"Merchant_Edition" = "매장용";
+"Login" = "로그인";
+"Login_Faild" = "로그인실패";
+"Logout" = "로그아웃";
+
+"Settle_Finish" = "청산 완료";
+"Settlf_Fail" = "미청산";
+"Replace" = "리셋";
+"Pay_Way" = "결제 방식";
+"Pay_Time" = "결제 시간";
+"Liquidation_Record" = "청산 기록";
+"Liquidation_Status" = "청산 상태";
+"Liquidation_Finish" = "청산 완료";
+"Liquidation_Detail" = "청산 디테일";
+"Liquidation" = "청산";
+
+
+"Set_Album_Permission" = "관리자가 카메라 접근 권한을 부여하여야 합니다\n(설정>개인정보보호>내게시물>열기)";

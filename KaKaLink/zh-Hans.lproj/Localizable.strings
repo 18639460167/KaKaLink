@@ -1,0 +1,267 @@
+
+/*
+ Localizable.strings
+ TourGuidShop
+ 
+ Created by tenpastnine-ios-dev on 16/12/22.
+ Copyright © 2016年 Black. All rights reserved.
+ */
+/**
+ *  tabbbar
+ */
+"check" = "对账";
+"sale" = "收入";
+"User" = "我";
+
+"setting" = "设置";
+"BACK" = "返回";
+"All" = "全部";
+"Filter" = "筛选";
+"Search" = "搜索";
+"Today" = "今天";
+"Before" = "之前";
+"Cancel" = "取消";
+"Finish" = "完成";
+"Determine" = "确定";
+"Select_Shop" = "点击这里选择您的商店";
+
+"Payment_Channel" = "支付通道";
+"Payment_Date" = "支付日期";
+"Wechat_Collection" = "微信收款";
+"Ali_Pay" = "支付宝收款";
+
+"Done" = "已成交";
+"Procress" = "退款中";
+"Refunded" = "已退款";
+
+/**
+ *  refersh
+ */
+"Not_More" = "没有更多";
+"Loading..." = "加载中...";
+"NO_Record" = "点击重新加载";
+"Pull to refresh..." = "下拉刷新...";
+"Release to refresh..." = "放手刷新...";
+"Picture_Load_Fail" = "网络不给力，图片下载失败";
+"Disconnect_Internet" = "网络好像不给力哦，请稍后再试!";
+
+/**
+ *  订单详情
+ */
+"Order_detail" = "订单详情";
+"Actual_Receivable" = "应收金额:";
+"Settlement_Amount" = "结算金额:";
+"Trading_Status" = "交易状态:";
+"Channels_Payment" = "支付渠道:";
+"Payment_Business" = "交易店铺:";
+"Transaction_Time" = "交易时间:";
+"Transaction_Number" = "交易号:";
+"Payment_Code" = "支付编码:";
+"Refund_Start_Time" = "退款发起时间:";
+"Refund_Reason" = "退款原因:";
+"Revoked" = "撤销";
+"Alert_Cancellation_Refund" = "您正在发起撤销退款,确认撤销退款么?";
+"Start_Cancellation_Refund" = "发起撤销订单退款";
+"Alert_Setting_Pass" = "您当前未设置交易密码,请立刻设置!";
+"Contact_Customer_Service" = "如有疑问请致电客服:";
+"Alert_Initiate_Refund" = "您正在发起退款,确认退款么?";
+"Input_Pay_Pass" = "请输入支付密码";
+
+"Refund" = "退款";
+"Choose_Refund_Reason" = "请选择一个退款原因";
+"Business_Negotiations" = "与用户协商一致";
+"Initiate_Order_Refund" = "发起订单退款";
+"No_Trans_Pass"  ="您当前未设置交易密码,请立刻设置!";
+"Many_Times_Pay" = "多次支付";
+"Other_Reasons" = "其他";
+"Input_Other_Reasons" = "点此输入其他退款理由";
+"Refund_Now" = "立即退款";
+"Refund_Amount" = "退款金额";
+
+"Today_Volue_Orders" = "今日成交 / 笔";
+"All_Volue_Orders" = "全部成交 / 笔";
+"Before_Volue_Orders" = "之前成交 / 笔";
+"Total_Sale" = "合计金额";
+
+"Setting_Six_Pass" = "请设置您的6位交易密码";
+"Input_Six_Number" = "(请输入纯数字的6位密码)";
+"Enter_Here" = "在此输入";
+"Alert_Set_Pass" = "*此密码将应用于一切金钱交易流程,请牢记";
+"Setting_Success" = "设置成功";
+"Two_Pass_Inconsistent" = "俩次密码不一致!";
+
+"Input_Order_Number" = "输入订单号";
+"Alert_Input_Order_Number" = "点击上方扫描按钮可以直接扫描订单条形码查询订单详情";
+"Scan_Message" = "把二维码放入框内，就可以自动扫描";
+"Scan" = "扫一扫";
+"Select_Picture" = "从相册中选";
+"Input_Bar_Code" = "输入条形码";
+"Switch_To_Scan" = "切换到扫描";
+"Please_Enter_Code" = "请输入条形码";
+"Order_Not_Find" = "订单未能找到！";
+
+/**
+ *  sale
+ */
+"Query" = "查询";
+"Nearly_Month_Sale" = "最近6月销售额趋势图";
+"Current_Balance" = "待清算余额";
+"Withdrawal" = "提现";
+"Current_Month_Balance" = "最近月份销售额";
+"Query_By_Date" = "通过日期查询";
+
+
+"Sale_Select_Start_time" = "请选择开始时间";
+"Sale_Select_End_time" = "请选择结束时间";
+"Sale_End_Date_Exceeded" = "结束日期超出查询范围!";
+"Sale_Star_Before_End" = "开始日期必须在结束日期之前!";
+
+"Query_Result" = "查询结果";
+"Please_Input_Correct_Email" = "请输入正确的邮箱";
+"Send_Order" = "发送订单";
+"Send_More" = "您操作太快了，请10分钟后再试";
+"Send_Success" = "发送成功";
+"Get_Order_Email" = "接收订单邮箱";
+"Enter_Email" = "请输入邮箱";
+"Debit_Card" = "到账银行卡";
+"Tail_Number" = "尾号";
+
+
+/**
+ *  setting
+ */
+"Message" = "消息";
+"Bank_Card" = "银行卡";
+"Qr_Code" = "二维码";
+"Usual_Problems" = "常见问题";
+"User_Feedback" = "联系客服";
+"Online_Service" = "在线客服";
+"Helpline" = "咨询热线";
+"Message_Remind" = "短信提醒";
+"Bank_Message" = "银行信息";
+"Bank_Account_Name" = "户名";
+"Bank_Account_Number" = "户号";
+"Bank_Branch_Name" = "开户银行";
+"Bank_Trunk_Name" = "分行";
+"Deleate" = "删除";
+"Phone_Number" = "手机号码:";
+"Email" = "电子邮箱:";
+"Telephone" = "客服电话";
+"All_Read" = "全读";
+"Personal_Information" = "个人信息";
+"Change_Qr" = "每家店铺二维码不同，请注意切换";
+"Save_Photo" = "保存到相册";
+"Save_Success" = "保存成功";
+"Save_Fail" = "保存失败";
+"Exit_Account" = "退出当前账户";
+"Message_Detail" = "消息详情";
+"Message_Type" = "消息类型:";
+"Message_Time" = "消息时间:";
+
+"Send_Verify_Code" = "发送验证码";
+"Seconds_After_Reissued" = "%@秒后重发";
+"Immediately_Bind" = "立即绑定";
+"Change_Bind" = "修改绑定";
+"Please_Input_Phone" = "请输入手机号";
+"Please_Input_Verify" = "请输入验证码";
+"Verify_Send_Success" = "验证码发送成功";
+"Alert_Enter_Phone" = "请输入手机号码!";
+"Change_Bind_Number" = "修改绑定号码";
+"Bind_Phone" = "绑定手机号码";
+"Bind_Success" = "绑定成功";
+
+// 卡券
+"Voucher" = "卡券";
+"Redeem_Code" = "兑换码";
+"Card_Ticket_Type" = "卡券类型";
+"Vertify_Record" = "核销记录";
+"Vertify_Record_Detail" = "卡券核销详情";
+"Card_Liquidation_Record" = "清算记录";
+"Liquidation_Record_Detail" = "清算记录详情";
+"Card_Verification" = "卡券核销";
+"Input_Card_Number" = "输入卡券号";
+
+"Card_Number" = "卡券号:";
+"Platform" = "平台:";
+"Order_ID" = "订单ID:";
+"Good_Name" = "商品名称:";
+"Good_Class" = "商品品类:";
+"Price" = "单价:";
+"Number" = "数量:";
+"Order_Total" = "订单总价:";
+"Vertify_Total" = "清算总价:";
+"Vertify_Time" = "核销时间:";
+"Settlement_Circle" = "结算周期:";
+"Settlement_Time" = "清算时间:";
+
+
+
+"Not_Find" = "未找到";
+"Vertify" = "核销";
+"Liquidationed" = "清算";
+"Settle_Finish" = "已清算";
+"Settlf_Fail" = "未清算";
+"Wirte_Off" = "核销";
+"Not_Written_Off" = "未核销";
+"Alipay" = "支付宝";
+"TaoBao" = "淘宝";
+"Public_Comment" = "大众点评";
+"Pen" = "笔";
+"Total" = "合计";
+"Piece" = "件";
+"Not_Open_Card" = "对不起，您尚未开通卡券核销功能，请联系BD经理为您开通，谢谢！";
+"Voucher_Had_Verificated" = "此卡券已被核销，不能重复核销!";
+"Ticket_Not_Confirmed" = "此卡券尚未确认成功，不能核销!";
+
+"Card_Expired" = "此卡券已过了使用时间，不能再核销!";
+"Good_Detail" = "商品详情";
+"Goods_Name" = "名称";
+"Goods_Number" = "数量";
+"Gourment_Meal" = "美食套餐券";
+"Delicacy_Vouchers" = "美食代金券";
+"Card_Category_Three" = "休闲娱乐";
+"Card_Category_Four" = "门票";
+"Card_Category_Five" = "用车";
+"Card_Category_Six" = "一日游";
+"Card_Category_Seven" = "演出赛事";
+"Card_Category_Eight" = "美食代订座";
+"Card_Category_Nine" = "签证";
+"Card_Category_Ten" = "机酒套餐";
+"Card_Category_Eleven" = "Wi-Fi";
+"Card_Category_Twelve" = "电话卡";
+"Card_Category_Thirteen" = "交通票";
+"Card_Category_Fourteen" = "特价机票";
+"Card_Category_Fifteen" = "跟团游";
+
+
+
+
+/**
+ *  login
+ */
+"Login_Input_Name" = "输入帐号";
+"Login_Input_Pass" = "输入密码";
+"Login_Input_No_Data" = "帐号或密码不能为空";
+"Merchant_Edition" = "商家版";
+"Login" = "登录";
+"Login_Faild" = "登录失败";
+"Logout" = "退出登录";
+
+/**
+ *  新增
+ */
+
+"Replace" = "重置";
+"Pay_Way" = "支付通道";
+"Pay_Time" = "支付日期";
+"Liquidation_Record" = "清算记录";
+"Liquidation_Status" = "清算状态";
+"Liquidation_Finish" = "清算完成";
+"Liquidation_Detail" = "清算详情";
+
+"Set_Album_Permission" = "请在系统设置中开启相机服务\n(设置>隐私>相册>开启)";
+
+
+
+
+

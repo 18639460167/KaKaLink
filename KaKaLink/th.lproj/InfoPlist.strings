@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  KaKaLink
+
+  Created by Black on 17/6/30.
+  Copyright © 2017年 Black. All rights reserved.
+*/
+NSPhotoLibraryUsageDescription="KAKALink ต้องได้รับอนุญาตของคุณเพื่อเข้าถึงอัลบัม";
+NSCameraUsageDescription="KAKALink ต้องได้รับอนุญาตในการเข้าถึงกล้อง";

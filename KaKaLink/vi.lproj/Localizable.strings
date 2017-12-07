@@ -1,0 +1,184 @@
+/* 
+  Localizable.strings
+  KaKaLink
+
+  Created by Black on 17/6/30.
+  Copyright © 2017年 Black. All rights reserved.
+*/
+/*
+ Localizable.strings
+ TourGuidShop
+ 
+ Created by tenpastnine-ios-dev on 16/12/22.
+ Copyright © 2016年 Black. All rights reserved.
+ */
+
+/**
+ *  tabbbar
+ */
+"check" = "kiểm tra";
+"sale" = "Thu nhập";
+"User" = "Tôi";
+"setting" = "Cài đặt";
+"BACK" = "Quay lại";
+"All" = "Tắt cả";
+"Filter" = "Sàng lọc";
+"Search" = "Tìm kiếm";
+"Today" = "Hôm nay";
+"Before" = "Trước";
+"Cancel" = "Huỷ bỏ";
+"Finish" = "Hoàn thành";
+"Determine" = "Xắc nhận";
+"Select_Shop" = "Nhấn vào chọn cửa hàng của bạn";
+"Payment_Channel" = "Kênh thanh toán";
+"Payment_Date" = "Ngày thanh toán";
+"Wechat_Collection" = "Thu tiền wechat";
+"Ali_Pay" = "Thu tiền Ali Pay";
+"Done" = "Đã giao dịch";
+"Procress" = "Đang hoàn tiền";
+"Refunded" = "Đã hoàn tiền";
+/**
+ *  refersh
+ */
+"Not_More" = "Không có nhiều hơn";
+"Loading..." = "Đang tải...";
+"NO_Record" = "Nhấn để tải lại";
+"Pull to refresh..." = "Kéo xuống làm mới...";
+"Release to refresh..." = "Thả tay để làm mới...";
+"Picture_Load_Fail" = "Mạng kém,tải ảnh thất bại";
+"Disconnect_Internet" = "Mạng hình như kém qua,xin đợi một lát nữa!";
+
+/**
+ * 订单详情
+ */
+"Order_detail" = "Tình hình cụ thể đơn hàng";
+"Actual_Receivable" = "Số tiền phải thu:";
+"Settlement_Amount" = "Số tiền quyết toán:";
+"Trading_Status" = "Trạng thái giao dịch:";
+"Channels_Payment" = "Cửa thanh toán:";
+"Payment_Business" = "Cửa hàng giao dịch:";
+"Transaction_Time" = "Thời gian giao dịch:";
+"Transaction_Number" = "Mã số giao dịch:";
+"Payment_Code" = "Mã số thanh toán:";
+"Refund_Start_Time" = "Thời gian bắt đầu hoàn tiền:";
+"Refund_Reason" = "Nguyên nhân hoàn tiền:";
+"Revoked" = "Huỷ bỏ";
+"Alert_Cancellation_Refund" = "Bạn đang bắc đầu hủy bỏ việc hoàn tiền,xác nhận hủy bỏ việc hoàn tiền này không?";
+"Start_Cancellation_Refund" = "Bắt đầu hủy bỏ hoàn tiền đơn hàng";
+"Alert_Setting_Pass" = "Bạn hiện tại chưa thiết lập mật mã giao dịch,xin bạn nhanh chóng thiết lập!";
+"Contact_Customer_Service" = "Nếu có thắc mắc xin gọi đến số điện thoại phục vụ khách hàng:";
+"Alert_Initiate_Refund" = "Bạn đang bắt đầu hoàn tiền,xắc nhận việc hoàn tiền này không?";
+"Input_Pay_Pass" = "Xin nhập mật mã thanh toán";
+"Refund" = "Hoàn tiền";
+"Choose_Refund_Reason" = "Xin chọn một nguyên nhân hoàn tiền";
+"Business_Negotiations" = "Cùng với người sử dụng thỏa thuận nhất trí";
+"Initiate_Order_Refund" = "Bắt đầu hoàn tiền đơn hàng";
+"No_Trans_Pass" ="Bạn hiện tại chưa thiết lập mật mã giao dịch,xin bạn nhanh chóng thiết lập!";
+"Many_Times_Pay" = "Thanh toán nhiều lần";
+"Other_Reasons" = "Cái khác";
+"Input_Other_Reasons" = "Nhấn vào đây để nhập lý do hoàn tiền khác";
+"Refund_Now" = "Hoàn tiền lập tức ";
+"Refund_Amount" = "Số tiền hoàn lại";
+"Today_Volue_Orders" = "Hôm nay giao dịch/khoản";
+"All_Volue_Orders" = "Toàn bộ giao dịch/khoản";
+"Before_Volue_Orders" = "Giao dịch trước đây/khoản";
+"Total_Sale" = "Tổng số tiền";
+"Setting_Six_Pass" = "Xin thiết lập mật mã giao dịch 6 số của bạn";
+"Input_Six_Number" = "(Xin nhập chính xác 6 chữ số mật mã)";
+"Enter_Here" = "Nhập vào tại đây";
+"Alert_Set_Pass" = "*Mật mặc này sẽ dùng cho tắt cả các lưu trình giao dịch tiền tệ,xin ghi nhớ";
+"Setting_Success" = "Thiết lập thành công";
+"Two_Pass_Inconsistent" = "Hai lần mật mã không đồng nhất!";
+"Input_Order_Number" = "Nhập mã đơn hàng";
+"Alert_Input_Order_Number" = "Nhấn vào nút scan phía trên để có thể trực tiếp scan mã vạch đơn hàng và kiểm tra tình hình cụ thể đơn hàng";
+"Scan_Message" = "Để mã vạch QR vào trong khung, là có thể tự động scan";
+"Scan" = "Quyết mã QR";
+"Select_Picture" = "Chọn từ trong bộ sưu tập";
+"Input_Bar_Code" = "Nhập mã vạch";
+"Switch_To_Scan" = "Chuyển đến sacn";
+"Please_Enter_Code" = "Xin nhập mã vạch";
+"Order_Not_Find" = "Không thể tìm được đơn hàng!";
+/**
+ * sale */
+"Query" = "Tìm kiếm";
+"Nearly_Month_Sale" = "Biểu đồ xu thế số lượng hàng hoá bán ra trong 6 tháng gần nhất";
+"Current_Balance" = "Số dư hiện nay";
+"Withdrawal" = "Rút tiền";
+"Current_Month_Balance" = "Số lượng hàng hoá bán ra trong tháng gần nhất";
+"Query_By_Date" = "Tìm kiếm trong qua ngày";
+"Sale_Select_Start_time" = "Xin chọn thời gian bắt đầu";
+"Sale_Select_End_time" = "Xin chọn thời gian kết thúc";
+"Sale_End_Date_Exceeded" = "Thời gian kết thúc vượt quá phạm vi tìm kiếm!";
+"Sale_Star_Before_End" = "Thời gian bắt đầu phải ở trước thời gian kết thúc!";
+"Query_Result" = "Kết quả tìm kiếm";
+"Please_Input_Correct_Email" = "Xin nhập vào Email chính xác";
+"Send_Order" = "Gửi đơn hàng";
+"Send_More" = "Bạn thao tác nhanh quá,xin thử lại sau 10 phút";
+"Send_Success" = "Gửi đơn hàng thành công";
+"Get_Order_Email" = "Email Tiếp nhận đơn hàng";
+"Enter_Email" = "Xin nhập vào Email";
+"Debit_Card" = "Thẻ ngân hàng đến tài khoản";
+"Tail_Number" = "Số đuôi";
+
+/**
+ *  setting
+ */
+"Message" = "Tin nhắn";
+"Bank_Card"= "Ngân hàng";
+"Qr_Code" = "Mã QR";
+"Usual_Problems" = "Hỗ trợ";
+"User_Feedback" = "Liên hệ";
+"Online_Service" = "Tư vấn";
+"Helpline" = "Liên hệ";
+"Message_Remind" = "Nhắc nhở bằng tin nhắn";
+"Bank_Message" = "Thông tin ngân hàng";
+"Bank_Account_Name" = "Tên thẻ ngân hàng";
+"Bank_Account_Number" = "Mã số thẻ ngân hàng";
+"Bank_Branch_Name" = "mở tài khoản ngân hàng";
+"Bank_Trunk_Name" = "Chị nhánh ngân hàng";
+"Deleate" = "Loại bỏ";
+"Phone_Number" = "Số điện thoại";
+"Email" = "Email:";
+"Telephone" = "Liên hệ";
+"All_Read" = "Đọc đoàn bộ";
+"Personal_Information" = "Thông tin cá nhân";
+"Change_Qr" = "mỗi một cửa hàng có mã QR không giống nhau, xin chú ý chuyển đổi";
+"Save_Photo" = "Lưu giữ trong sổ sưu tập";
+"Save_Success" = "Lựu giữ thành công";
+"Save_Fail" = "Lưu giữ thất bại";
+"Exit_Account" = "Rút khỏi tài khoản hiện tại";
+"Message_Detail" = "Tình hình cụ thể thong tin"; "Message_Type" = "Loại thông tin:";
+"Message_Time" = "Thời gian thông tin:";
+"Send_Verify_Code" = "Gửi mã số xác nhận";
+"Seconds_After_Reissued" = "Gửi lại sau %@ giây";
+"Immediately_Bind" = "Ràng buộc lập tức";
+"Change_Bind" = "Thay đổi ràng buộc";
+"Please_Input_Phone" = "Xin nhập số điện thoại";
+"Please_Input_Verify" = "Xin nhập mã số tin nhắn đã nhận được";
+"Verify_Send_Success" = "Xã số nghiệm chứng gửi đi thành công";
+"Alert_Enter_Phone" = "Xin nhập số điện thoại di động!";
+"Change_Bind_Number" = "Thay đổi số điện thoại ràng buộc";
+"Bind_Phone" = "Số điện thoại ràng buộc";
+"Bind_Success" = "Ràng buộc thành công";
+
+
+/**
+ * login */
+"Login_Input_Name" = "Nhập vào tài khoản";
+"Login_Input_Pass" = "Nhập vào mật mã";
+"Login_Input_No_Data" = "Tài khoản và mật mà không thẻ để trống";
+"Merchant_Edition" = "Bản Cửa Hàng";
+"Login" = "Đăng nhập";
+"Login_Faild" = "Đăng nhập thất bại";
+"Logout" = "Đăng xuất";
+
+"Settle_Finish" = "Đã chuyển tiền";
+"Settlf_Fail" = "Chưa chuyển tiền";
+"Replace" = "Thiết lập lại";
+"Pay_Way" = "Kênh thanh toán";
+"Pay_Time" = "Thầy gian thanh toán";
+"Liquidation_Record" = "Lịch sự chuyển tiền";
+"Liquidation_Status" = "Trạng thái chuyển tiền";
+"Liquidation_Finish" = "Chuyển tiền thành công";
+"Liquidation" = "Chuyển tiền";
+"Current_Balance" = "Số tiền đang chờ chuyển";
